@@ -1,7 +1,8 @@
 {
   "name": "react-router-navtab",
-  "version": "0.0.3",
-  "description": "A navigation tab util for the app using react-router.",
+  "version": "0.0.4",
+  "description": "A wrapper of the Link tab in React Router to make navigation bar have an active style.",
+  "homepage": "https://zc1415926.github.io/react-router-navtab/",
   "main": "navTab.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
