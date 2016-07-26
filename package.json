@@ -1,6 +1,6 @@
 {
   "name": "react-router-navtab",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A navigation tab util for the app using react-router.",
   "main": "navTab.js",
   "scripts": {
