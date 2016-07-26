@@ -21,9 +21,11 @@ var NavTab = React.createClass({
             }
         }else{
 
-             className = isActive ? 'active' : '';
+            className = isActive ? 'active' : '';
         }
-        return <li className={className}> <Link {...this.props} /></li>;
+        //return <li className={className}> <Link {...this.props} /></li>;
+        var childLink = React.createElement(Link, {to: this.props.to, children: this.props.children});
+        return React.createElement('li', {className: className}, childLink);
     }
 });
 
